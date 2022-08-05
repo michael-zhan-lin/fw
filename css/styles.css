@@ -1,0 +1,41 @@
+/* CSS TAG Selectors*/
+  /* this affects the <body> tags */
+    body {
+        background-color: aliceblue;
+    }
+    /* this affects the <hr> tags */
+    hr {
+        /* background-color:white; */
+        border-style: none;
+        border-top-style: dotted;
+        border-color: grey;
+        border-width: 5px;
+        height: 0px; /* height of hr */
+        width: 5%;
+    }
+    h1{
+        color: #66BFBF;
+    }
+    h3{
+        color:#66BFBF;
+    }
+    img:hover{
+        background-color: ghostwhite;
+    }
+/* Hover action when cursor moves ontop of the element */
+
+/* CSS Class Selectors, we named hr of the header */
+    .header{
+        width: auto;
+    }
+    .line{
+        color:ghostwhite;
+    }
+    /* YOU CAN GROUP MULTIPLE ELEMENTS INTO A CLASS */
+    /* An Element can be a part of multiple classes */
+
+/* ID SELECTORS*/
+    #name{
+        color:blue;
+    }
+    /* YOU CAN ONLY HAVE 1 ID OF THE SAME NAME */
